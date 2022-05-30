@@ -1,0 +1,21 @@
+$shadow: 0px 3px 10px rgb(71 71 71 / 20%);
+$white: #ffffff;
+$off-white: #ececec;
+
+.home-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-section {
+    background: $white;
+    box-shadow: $shadow;
+    border-radius: .5em;
+    flex-basis: 60%;
+    margin: 0 1em;
+    padding: 0 1em;
+}
+
+.home-section__expire {
+    flex-basis: 30%;
+}
