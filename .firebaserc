@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "pantryapp-bd16c": {
+      "hosting": {
+        "grocery-app": [
+          "pantryapp-bd16c"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "pantryapp-bd16c"
+  }
+}
