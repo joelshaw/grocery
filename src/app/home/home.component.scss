@@ -1,6 +1,5 @@
-$shadow: 0px 3px 10px rgb(71 71 71 / 20%);
-$white: #ffffff;
-$off-white: #ececec;
+@import "colors";
+@import "mixins";
 
 .home-container {
     display: flex;
@@ -8,9 +7,9 @@ $off-white: #ececec;
 }
 
 .home-section {
-    background: $white;
-    box-shadow: $shadow;
-    border-radius: .5em;
+    @include border-radius;
+    @include box-shadow;
+    background: $off-white;
     flex-basis: 60%;
     margin: 0 1em;
     padding: 0 1em;
@@ -18,4 +17,14 @@ $off-white: #ececec;
 
 .home-section__expire {
     flex-basis: 30%;
+}
+
+.home-section__pantry {
+    margin-top: 1em;
+}
+
+.home-section__right {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 40%;
 }
