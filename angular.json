@@ -110,6 +110,16 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "grocery-app:build:production",
+            "firebaseProject": "pantryapp-bd16c",
+            "firebaseHostingSite": "pantryapp-bd16c"
+          }
         }
       }
     }
