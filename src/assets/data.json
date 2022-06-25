@@ -1,0 +1,10 @@
+{
+    "products": {
+        "name": "Fritos",
+        "type": "Chips",
+        "category": "Snacks",
+        "qty": 2,
+        "exp": 20220601,
+        "purchaseDate": 20220501
+    }
+}
